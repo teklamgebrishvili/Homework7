@@ -1,0 +1,190 @@
+/*header start*/
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+}
+.h1 {
+	display: inline-block;
+	vertical-align: middle;
+	color: #A9A9A9;
+}
+
+.header-container {
+    display: flex;
+	display: flex-end;
+	justify-content: space-around;
+	align-items: center;
+}
+.word1 {
+	font-size: 20px;
+	color: blue;
+	margin-right: 40px;
+}
+.word2 {
+	font-size: 20px;
+	color: blue;
+	margin-right: 40px;
+}
+.word3 {
+	font-size: 20px;
+	color: blue;
+	margin-right: 40px;
+}
+.word4 {
+	font-size: 20px;
+	color: blue;
+	margin-right: 40px;
+}
+.word5 {
+	font-size: 20px;
+	color: blue;
+	margin-right: 40px;
+}
+/*header end*/
+/*section 1 start*/
+.section-1-container {
+	background-image: url("../img/man.jpg");
+	height: 500px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	margin-right: 40px;
+
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.section-1-title {
+	font-size: 50px;
+	color: #696969;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.h3 {
+	font-size: 15px;
+	color: #808080;
+	margin-top: 30px;
+}
+.box {
+	width: 180px;
+	border: 10px solid blue;
+	border-radius: 100%;
+	background-color: blue;
+	margin-left: 80px;
+}
+.icon-image {
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon-text {
+	display: inline-block;
+	color: white;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/*section 1 end*/
+/*section 2 start*/
+.section-2 {
+	background-color: #E9F4FF;
+	padding: 60px 0 150px;
+}
+.section-2-container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.section-2-titles {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.section-2-titles > h4 {
+	font-size: 20px;
+	color: #4682B4;
+	margin-bottom: 15px;
+}
+.section-2-titles > h2 {
+	font-size: 40px;
+	color: #5A5454;
+	margin-bottom: 15px;
+}
+.section-2-titles > p {
+	font-size: 18px;
+	color: #747474;
+}
+.section-2-cards {
+	margin-top: 40px;
+}
+.h4 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: white;
+	display: flex;
+	flex-direction: center;
+	align-items: center;
+	flex-direction: column;
+}
+.p {
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: white;
+	display: flex;
+	flex-direction: center;
+	align-items: center; 
+	flex-direction: column;
+}
+ a:hover {
+ 	background-color: yellow;
+
+
+}
+.line-1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card {
+	width: 370px;
+	height: 450px;
+	background-color: darkred;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 22px -14px 5px 0px rgba(0,0,0,0.75);
+}
+.card:nth-child(1) {
+	background-color: sandybrown;
+	margin-bottom: 60px;
+}
+.card:nth-child(2) {
+	background-color: turquoise;
+	margin-bottom: 60px;
+}
+.card:nth-child(3) {
+	background-color: RebeccaPurple;
+	margin-bottom: 60px;
+}
+.card:nth-child(4) {
+	background-color: springgreen;
+}
+.card:nth-child(5) {
+	background-color: seagreen;
+}
+.card:nth-child(6) {
+	background-color: salmon;
+}
+/*section-2-end*/
+
+
+
